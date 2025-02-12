@@ -13,17 +13,51 @@
 </head>
 <body>
 <div class="container-fluid">
-  <header class="row bg-success">
+  <header class="row bg-success h3">
     Header
   </header>
   <section class="row">
 
-    <div style="height: 200px; border: 1px solid whitesmoke;" class="bg-primary p-1 col-md-3 offset-md-3">1</div>
-    <div style="height: 200px; border: 1px solid whitesmoke;" class="bg-primary p-1 col-md-3 me-md-1">2</div>
-    <div style="height: 200px; border: 1px solid whitesmoke;" class="bg-primary p-1 col-md-3">3</div>
-    <div style="height: 200px; border: 1px solid whitesmoke;" class="bg-primary p-1 col-md-3 offset-md-6">4</div>
+    <div style="height: 200px; border: 1px solid whitesmoke;" class="h3 col-6 col-sm bg-primary p-1 col-md-3 offset-md-3">1</div>
+    <div style="height: 200px; border: 1px solid whitesmoke;" class="h3 col-6 col-sm bg-primary p-1 col-md-3 me-md-1">2</div>
+    <div style="height: 200px; border: 1px solid whitesmoke;" class="h3 col-6 col-sm bg-primary p-1 col-md-3">3</div>
+    <div style="height: 200px; border: 1px solid whitesmoke;" class="h3 col-6 col-sm bg-primary p-1 col-md-3 offset-md-6">4</div>
 
   </section>
+  <section class="row bg-secondary">
+
+    <div class="d-none d-sm-block d-md-none h3">
+      Tablet
+    </div>
+
+  </section>
+  <section class="row bg-warning border-black" style="height: 200px;">
+
+    <div class="border text-center col-6 col-sm order-md-3 h3">a</div>
+    <div class="border text-center col-6 col-sm order-md-2 h3">b</div>
+    <div class="border text-center col-6 col-sm order-md-1 h3">c</div>
+    <div class="border text-center col-6 col-sm order-md-0 h3">d</div>
+
+  </section>
+  <section class="row bg-dark-subtle h3 d-block d-sm-none" style="height: 200px;">
+     Mobile
+  </section>
+  <section class="row bg-info">
+    <p class="col d-none d-sm-block d-sm-none d-md-block h3">Desktop</p>
+  </section>
+  <section class="row justify-content-center">
+
+    <div class="col col-md-2 bg-info-subtle h3 order-md-2" style="height: 200px;">
+      :D
+    </div>
+
+    <div class="col col-md-2 bg-info-subtle h3 d-none d-sm-block" style="height: 200px;">
+      :(
+    </div>
+  </section>
+  <footer class="row bg-dark">
+    <div class="col d-none d-sm-block text-bg-danger" style="height: 200px;">Footer</div>
+  </footer>
 </div>
   
 
